@@ -1,0 +1,90 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body {
+  background-color: #fcebd5;
+  color: #333;
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+.valentine-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: 'Arial', sans-serif;
+}
+
+.text-container {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #d32f2f;
+  margin: 20px 0;
+}
+
+.button-container {
+  display: flex;
+  flex-wrap: wrap;
+  /* Allows wrapping if buttons get too big/wide */
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+.yes-button {
+  background-color: #4caf50;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2rem;
+  /* Initial size foundation */
+  transition: all 0.3s ease;
+}
+
+.yes-button:hover {
+  background-color: #45a049;
+}
+
+.no-button {
+  background-color: #f44336;
+  color: white;
+  font-size: 1.2rem;
+}
+
+.no-button:hover {
+  background-color: #d32f2f;
+}
+
+.bear-img {
+  height: 200px;
+  width: auto;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.yes-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
