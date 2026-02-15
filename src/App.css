@@ -88,3 +88,117 @@ button {
   justify-content: center;
   align-items: center;
 }
+
+.creator-form,
+.intro-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 400px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.input-group label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.input-group small {
+  color: #888;
+  font-size: 0.8em;
+  margin-top: 3px;
+}
+
+input {
+  padding: 10px;
+  border: 2px solid #ddd;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+input:focus {
+  border-color: #d32f2f;
+  outline: none;
+}
+
+.action-button {
+  background-color: #d32f2f;
+  color: white;
+  padding: 12px;
+  border-radius: 6px;
+  border: none;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.action-button:hover {
+  background-color: #b71c1c;
+}
+
+.result-container {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 500px;
+}
+
+.link-box {
+  display: flex;
+  gap: 10px;
+  margin: 15px 0;
+}
+
+.link-box input {
+  flex: 1;
+}
+
+.copy-btn {
+  background-color: #333;
+  color: white;
+}
+
+.reset-btn {
+  background: none;
+  border: none;
+  color: #888;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.subtitle {
+  margin-top: -10px;
+  margin-bottom: 20px;
+  color: #666;
+}
+
+.whatsapp-button {
+  background-color: #25D366;
+  color: white;
+  padding: 12px 24px;
+  font-size: 1.2rem;
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: none;
+  border-radius: 50px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.whatsapp-button:hover {
+  background-color: #128C7E;
+}
